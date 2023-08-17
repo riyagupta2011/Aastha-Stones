@@ -1,0 +1,45 @@
+
+.services{
+    display:flex;
+    background-color:black;
+    height:800px;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+}
+.innerbox{
+    border:1px solid rgb(194 156 108);
+    padding:40px;
+    height:650px;
+    display: flex;;
+    width:90%;
+}
+.left1{
+    flex:1;
+    background-color: beige;
+   
+
+}
+.left1 img{
+   height:650px;
+   border:1px solid rgb(194 156 108);
+}
+.right1{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    color:white;
+    
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.right1 h2{
+    font-size:56px;
+}
+.right1 p{
+    font-size:18px;
+    line-height: 1.5;
+    padding-left:75px;
+}

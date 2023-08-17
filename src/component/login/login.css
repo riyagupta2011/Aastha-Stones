@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.login{
+    display:flex;
+    background-color:black;
+}
+.leftlogin{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    color:  rgb(194 156 108);
+    margin-left:30px;
+    
+}
+.address ,.email,.phone{
+    padding:12px;
+    margin:12px;
+    display:flex;
+    
+    
+    
+}
+.t{
+    margin-top:15px;
+}
+.p{
+    color:  rgb(194 156 108);
+    margin-left:20px;
+}
+.middlelogin{
+    flex:2;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.middlelogin input{
+    border:none;
+    border-bottom: 2px solid rgb(194 156 108);
+    color:rgb(194 156 108);
+    padding:12px;
+    margin:12px;
+    background-color: black;
+    font-size:26px;
+}
+
+.rightlogin{
+    flex:1;
+}
+.mybuttonlogin{
+    border:none;
+ color:white;
+ background-color: rgb(194 156 108);
+    padding:12px;
+    margin:12px;
+    
+    font-size:26px;
+}
+.thank-you-message
+{
+    color:rgb(194 156 108);
+    font-size:29px;
+}

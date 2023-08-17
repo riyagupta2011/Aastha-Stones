@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+.navigation{
+    display:flex;
+    width:100%;
+    top:0;
+    position:absolute;
+    background-color: rgba(255, 250, 250, 0);
+    z-index: 1;
+}
+.left
+{
+    display:flex;
+    padding:12px;
+    margin:22px;
+  color:white;
+    font-size: 35px;
+    font-weight: 500;
+    
+
+}
+.right{
+    display:flex;
+    margin-left:Auto;
+   
+}
+.right li{
+    list-style: none;
+    padding:12px;
+    margin:12px;
+    font-size: 23px;
+    color:white;
+   
+   
+}
+.right ul{
+  
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 1313px) and (min-width: 322px){
+    .navigation{
+        display:flex;
+        width:1234px;
+        
+    }
+  }
+  @media only screen and (max-width: 322px) {
+    .navigation {
+   
+    width:529%;
+    }
+  }
+  img{
+    display:block;
+    width: 100%;
+   
+    height:700px;
+  }
+  .text
+{
+    position: absolute;
+    flex-direction: column;
+    color:white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Text color, you can change it to your desired color */
+  font-size: 48px; /* Set your desired font size */
+  
+}
